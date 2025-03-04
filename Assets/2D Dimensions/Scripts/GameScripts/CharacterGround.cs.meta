@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 46a188b4b40a99144b0eb8ae1e5d9992
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102180
+  packageName: 2D Platformer - Innovative Dimensions
+  packageVersion: 2.0
+  assetPath: Assets/2D Dimensions/Scripts/GameScripts/CharacterGround.cs
+  uploadId: 369078

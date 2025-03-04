@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 84a3192a34e4fcc45b1842f4c4e383cf
+timeCreated: 1497548501
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102180
+  packageName: 2D Platformer - Innovative Dimensions
+  packageVersion: 2.0
+  assetPath: Assets/2D Dimensions/Prefabs/Main Camera.prefab
+  uploadId: 369078

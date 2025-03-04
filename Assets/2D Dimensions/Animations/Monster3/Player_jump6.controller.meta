@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8868d88618ca4874d868da23c980a44c
+timeCreated: 1506725658
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102180
+  packageName: 2D Platformer - Innovative Dimensions
+  packageVersion: 2.0
+  assetPath: Assets/2D Dimensions/Animations/Monster3/Player_jump6.controller
+  uploadId: 369078

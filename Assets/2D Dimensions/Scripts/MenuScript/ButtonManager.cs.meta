@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e1ccde642303ad047ab2002acbaa3191
+timeCreated: 1505656555
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102180
+  packageName: 2D Platformer - Innovative Dimensions
+  packageVersion: 2.0
+  assetPath: Assets/2D Dimensions/Scripts/MenuScript/ButtonManager.cs
+  uploadId: 369078

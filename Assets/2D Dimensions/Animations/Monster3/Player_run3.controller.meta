@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9b9084e9dbed1754a944a0df0cadfe1a
+timeCreated: 1506725684
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102180
+  packageName: 2D Platformer - Innovative Dimensions
+  packageVersion: 2.0
+  assetPath: Assets/2D Dimensions/Animations/Monster3/Player_run3.controller
+  uploadId: 369078
