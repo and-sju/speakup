@@ -62,15 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Graphie/Isometric Character/Scripts/CharacterControls.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/FollowTarget.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/CharacterDie.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/DimensionsChange.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/MenuScript/LevelUnlock/LevelManagerUnlocked.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/DialogueTrigger.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/SimpleNavAgentAnimation.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/MenuScript/ButtonManager.cs" />
     <Compile Include="Assets/Graphie/Isometric Character/Scripts/CharacterAnimation.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/Movement2D.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/MenuScript/LevelUnlock/ButtonSettings.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/CharacterGround.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/Door.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GamePlayScripts/PassLevel.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/SmoothCamera.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/ClickMovement.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/DialogueUI.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/DialogueManager.cs" />
+    <Compile Include="Assets/HeneGames/Dialogue System/Scripts/DialogueCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
