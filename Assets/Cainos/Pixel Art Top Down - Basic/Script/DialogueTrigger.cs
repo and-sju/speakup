@@ -7,12 +7,13 @@ namespace DialogueInterface
 public class DialogueTrigger: MonoBehaviour
 {
 
-[SerializeField] DialogueUIController _dialogueUIController;
+//public [SerializeField] DialogueUIController _dialogueUIController;
+  public DialogueUIController _dialogueUIController;
 
   void OnCollisionEnter2D(Collision2D collision)
   {
   	_dialogueUIController.ShowDialogueUI();
-  	Debug.Log("text text text");
+  	//Debug.Log("text text text");
   }
 }
 }

@@ -7854,8 +7854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 560, y: 0}
-  m_SizeDelta: {x: 280, y: 280}
+  m_AnchoredPosition: {x: 0, y: -600}
+  m_SizeDelta: {x: 380, y: 380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &423381098
 PrefabInstance:
@@ -10921,7 +10921,6 @@ MonoBehaviour:
   _dialogueTextForRightImage: {fileID: 760213465}
   _characterLeftImage: {fileID: 1234419218}
   _characterRightImage: {fileID: 392620660}
-  _characterBottomImage: {fileID: 0}
   _dialogueOptionsLayout: {fileID: 914895006}
   _dialogueOptionButton: {fileID: 78472275037168734, guid: 11e8dd9a2a11fb14d84d3f29e15a5d79,
     type: 3}
@@ -16473,7 +16472,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _dialogueUIController
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 964775956}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
