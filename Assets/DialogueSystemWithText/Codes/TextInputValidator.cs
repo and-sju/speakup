@@ -26,7 +26,7 @@ public class TextInputValidator : MonoBehaviour
     {
     Debug.Log("answer is right");
     input.text = "";
-    for(int i=0; i<3; i++)
+    for(int i=0; i<10; i++)
     {
       if(QuestionStore.qaData[i,0] == DialogueTrigger.textBody && QuestionStore.qaData[i,1] == DialogueTrigger.rightAnswer)
         QuestionStore.qaData[i,2] = "1";
