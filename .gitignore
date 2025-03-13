@@ -3,3 +3,5 @@
 speakup.sln
 /Logs
 UserSettings/Layouts/default-6000.dwlt
+*.dwlt
+Assets/DialogueSystemWithText/Codes/.DS_Store

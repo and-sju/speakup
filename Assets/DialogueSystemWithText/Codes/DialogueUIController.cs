@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DialogueSystemWithText;
+using DialogueInterface;
 
 namespace DialogueSystemWithText
 {
@@ -80,6 +81,7 @@ namespace DialogueSystemWithText
 
         private void Update()
         {
+            //string isPromptRight = ;
             if(Input.GetKeyDown(KeyCodeSkipDialogue) && _canvas.enabled && KeyCodeSkipDialogue != KeyCode.None && _skippableTypeDialogue)
             {
                 SkipTypingDialogue();
@@ -100,6 +102,7 @@ namespace DialogueSystemWithText
                 return;
             }
 
+            //if(!TextInputValidator.isAnswerRight)
             _canvas.enabled = true;
             StartDialogue(FirstDialogueContent);
         }
@@ -327,6 +330,11 @@ namespace DialogueSystemWithText
             {
                 HideDialogueUI();
             }
+        }
+
+        public void FinishDialogue()
+        {
+            HideDialogueUI();
         }
 
         /// <summary>Method to go to the next dialogue to show in DialogueUICanvas. This method is calling from the DialogueOptionButton script.</summary>

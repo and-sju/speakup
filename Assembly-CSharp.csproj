@@ -61,11 +61,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/DialogueSystemWithText/Codes/QuestionStore.cs" />
     <Compile Include="Assets/Graphie/Isometric Character/Scripts/CharacterControls.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/CharacterDie.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/GameScripts/DimensionsChange.cs" />
     <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/MenuScript/LevelUnlock/LevelManagerUnlocked.cs" />
+    <Compile Include="Assets/DialogueSystemWithText/Codes/TextInputValidator.cs" />
     <Compile Include="Assets/DialogueSystemWithText/Codes/CustomFields/PrefabModeOnlyField.cs" />
     <Compile Include="Assets/DialogueSystemWithText/Codes/CustomFields/ReadOnlyField.cs" />
     <Compile Include="Assets/2D Dimensions/Scripts/MenuScript/ButtonManager.cs" />

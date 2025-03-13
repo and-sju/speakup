@@ -264,3 +264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogueUIController: {fileID: 0}
+  Name: alligator
+  Text: crocodile
+  Answer: reptile

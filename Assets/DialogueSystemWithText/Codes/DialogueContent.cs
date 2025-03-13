@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using DialogueSystemWithText;
+using DialogueInterface;
 
 namespace DialogueSystemWithText
 {
@@ -84,13 +85,18 @@ namespace DialogueSystemWithText
         public void InvokeDialogueStartEvent()
         {
             _dialogueStartEvent?.Invoke();
+            if(DialogueTrigger.textHeader != null)
+            _characterName = DialogueTrigger.textHeader;
+            if(DialogueTrigger.textBody != null)
+            _dialogue = DialogueTrigger.textBody;
         }
 
         /// <summary>Method to invoke the methods registered in the dialogue end event.</summary>
         public void InvokeDialogueEndEvent()
         {
-            _dialogueEndEvent?.Invoke();
+          _dialogueEndEvent?.Invoke();
         }
+
     }
 
     public enum CharacterImagePosition
