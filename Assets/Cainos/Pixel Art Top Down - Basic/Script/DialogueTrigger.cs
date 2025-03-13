@@ -23,7 +23,7 @@ public class DialogueTrigger: MonoBehaviour
 
     int row = 0;
 
-    for(int i=0; i<3; i++)
+    for(int i=0; i<10; i++)
     {
       if(QuestionStore.qaData[i,2] == "0")
       {
